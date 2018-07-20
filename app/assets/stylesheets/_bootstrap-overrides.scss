@@ -1,0 +1,14 @@
+.btn-secondary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken(#4CAF50, 10%) !important;
+    border-color: darken(#4CAF50, 10%) !important;
+  }
+}
+
+.input {
+  font-weight: 300 !important;
+}
